@@ -19,7 +19,7 @@ export default function Footer() {
               <span className="text-white font-bold">AHNY.DEV</span>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Dedicated to building projects that engage and inspire.
+              Dedicated to delivering industry standard solutions.
             </p>
           </div>
 

@@ -187,8 +187,13 @@ export default function Projects() {
         <div className="h-1 w-32 bg-[#00ff88] mx-auto mb-12"></div>
 
         <p className="text-center text-gray-300 text-base sm:text-lg max-w-3xl mx-auto mb-16">
-          A collection of my projects showcasing different aspects of modern
-          software development, from user interfaces to backend architecture.
+          This gallery highlights a curated selection of projects that reflect
+          the breadth and depth of my technical experience. Each project
+          demonstrates my capabilities across various domains, including backend
+          development, frontend development, machine learning, and computer
+          vision. These works not only showcase my versatility as a developer
+          but also my commitment to building meaningful, well-engineered
+          solutions across diverse areas of technology
         </p>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">

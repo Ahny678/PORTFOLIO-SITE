@@ -22,7 +22,8 @@ export default function Hero() {
             <span className="bg-white text-black px-2 py-1 rounded font-semibold">
               Tiffany Ugwunebo
             </span>{" "}
-            — I am a software developer who xx
+            I am a software developer with experience in backend development,
+            frontend development, machine learning and technical writing
           </p>
         </div>
 

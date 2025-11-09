@@ -1,4 +1,4 @@
-import { Code2, Server, Smartphone, Globe } from "lucide-react";
+import { Code2, Server, Smartphone, Globe, PenTool } from "lucide-react";
 
 export const skills = [
   {
@@ -38,6 +38,36 @@ export const skills = [
     description:
       "Implementing AI models, machine learning pipelines, and intelligent agents",
   },
+  {
+    icon: PenTool,
+    title: "TECHNICAL & CREATIVE WRITING",
+    technologies: "Hasnode, Instagram, Markdown, Storytelling",
+    description: (
+      <>
+        Writing both technical and creative content — from developer-focused
+        documentation and tutorials to expressive storytelling and reflections.
+        <div className="flex flex-wrap items-center mt-2">
+          <a
+            href="https://your-hasnode-link.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#00ff88] underline hover:text-white transition-colors"
+          >
+            Technical Writing ↗
+          </a>
+          <span className="mx-3 text-gray-500">|</span>
+          <a
+            href="https://instagram.com/your_ig_handle"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#00ff88] underline hover:text-white transition-colors"
+          >
+            Creative Writing ↗
+          </a>
+        </div>
+      </>
+    ),
+  },
 ];
 
 export default function About() {
@@ -50,10 +80,14 @@ export default function About() {
         <div className="h-1 w-32 bg-[#00ff88] mx-auto mb-12"></div>
 
         <p className="text-center text-gray-300 text-base sm:text-lg max-w-3xl mx-auto mb-16 leading-relaxed">
-          I'm a software developer who loves bringing ideas to life through
-          thoughtful, purposeful work. What started as curiosity has grown into
-          a passion and dedication to creating experiences that feel intuitive,
-          meaningful, crafted with intention every step of the way.
+          I'm a software developer with a strong drive to take on new challenges
+          and continuously expand my knowledge. My passion for learning has led
+          me to explore and gain hands-on experience across multiple domains
+          within the tech industry — including web development, artificial
+          intelligence, technical and creative writing. This diverse background
+          has equipped me with a well-rounded skill set and a deep appreciation
+          for solving problems across the full stack. I bring curiosity,
+          dedication, and versatility to every project I engage with.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
