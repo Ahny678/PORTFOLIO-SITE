@@ -7,6 +7,39 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
+      title: "Pixel Hive",
+      description:
+        "Asynchronous media-processing API for PDFs, images, videos, and QR codes. Built with NestJS, BullMQ, Redis, and Cloudinary. Handles CPU-intensive jobs via background workers with retries, job tracking, and email notifications. API-only by design.",
+      image: "/pixhiv.png",
+      technologies: [
+        "NestJS",
+        "TypeScript",
+        "BullMQ",
+        "Redis",
+        "PostgreSQL",
+        "Prisma",
+        "Cloudinary",
+        "Swagger",
+        "JWT",
+        "Sendgrid",
+        "Docker",
+      ],
+      buttons: [
+        {
+          label: "CODE",
+          type: "code",
+          href: "https://github.com/Ahny678/Pixel-Hive",
+        },
+        {
+          label: "API DOCS",
+          type: "preview",
+          href: "https://pixel-hive.onrender.com/api",
+        },
+      ],
+    },
+
+    {
+      id: 2,
       title: "Ink & Keys",
       description:
         "AI-powered writing platform with OCR, AI image generation, and smart document management. Built with React, NestJS, and PostgreSQL for writers and content creators.",
@@ -30,14 +63,14 @@ export default function Projects() {
           href: "https://github.com/Ahny678/INK-AND-KEYS",
         },
         {
-          label: "PREVIEW",
+          label: "LIVE LINK",
           type: "preview",
           href: "https://ink-and-keys.vercel.app",
         },
       ],
     },
     {
-      id: 2,
+      id: 3,
       title: "IntelliScout",
       description:
         "Intelligent resume parsing and job matching backend powered by GPT-4.1, BullMQ, and RapidAPI. Automates resume analysis, scoring, and notifications for HR workflows.",
@@ -68,7 +101,7 @@ export default function Projects() {
       ],
     },
     {
-      id: 3,
+      id: 4,
       title: "E-Chronicles",
       description:
         "Media-rich personal diary and matchmaking app built with NestJS, GraphQL, and Redis. Users can record text, audio, video, and find connections via personality scoring.",
@@ -91,14 +124,14 @@ export default function Projects() {
           href: "https://github.com/Ahny678/E-Chronicles",
         },
         {
-          label: "PREVIEW",
+          label: "API DOCS",
           type: "preview",
           href: "https://e-chronicles.onrender.com/api",
         },
       ],
     },
     {
-      id: 4,
+      id: 5,
       title: "Gesture Controller System",
       description:
         "Python-based computer vision system that controls volume, brightness, screenshots, and voice recording via hand gestures using MediaPipe and OpenCV.",
@@ -123,7 +156,7 @@ export default function Projects() {
       ],
     },
     {
-      id: 5,
+      id: 6,
       title: "PR’s Status Board",
       description:
         "A React + Vite dashboard that visualizes GitHub Pull Requests for teams — showing open and closed PRs with reviewer data, actions, and a heatmap of daily activity.",
@@ -143,14 +176,14 @@ export default function Projects() {
           href: "https://github.com/chingu-voyages/V57-tier1-team-03",
         },
         {
-          label: "PREVIEW",
+          label: "LIVE LINK",
           type: "preview",
           href: "https://pull-requests-data-tracker.netlify.app/",
         },
       ],
     },
     {
-      id: 6,
+      id: 7,
       title: "Public Safety Wiki",
       description:
         "A media-rich fan wiki for the anime Chainsaw Man, featuring detailed profiles of Public Safety Division members, devils, and entities. Built with React and Vite, it showcases interactive cards, responsive grids, flexbox layouts, and hover effects to provide an immersive browsing experience.",
@@ -170,7 +203,7 @@ export default function Projects() {
           href: "https://github.com/Ahny678/PUBLIC_SAFETY_WIKI",
         },
         {
-          label: "PREVIEW",
+          label: "LIVE LINK",
           type: "preview",
           href: "https://public-safety-wiki.vercel.app/",
         },
