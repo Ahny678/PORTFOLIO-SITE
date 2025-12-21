@@ -186,7 +186,7 @@ export default function Projects() {
       id: 7,
       title: "Public Safety Wiki",
       description:
-        "A media-rich fan wiki for the anime Chainsaw Man, featuring detailed profiles of Public Safety Division members, devils, and entities. Built with React and Vite, it showcases interactive cards, responsive grids, flexbox layouts, and hover effects to provide an immersive browsing experience.",
+        "A media-rich fan wiki for the anime Chainsaw Man, featuring detailed profiles of Public Safety Division members and non human entities. Built with React and Vite, it showcases interactive cards, responsive grids, flexbox layouts, and hover effects to provide an immersive browsing experience.",
       video: "psw.mp4",
       technologies: [
         "React",
@@ -206,6 +206,37 @@ export default function Projects() {
           label: "LIVE LINK",
           type: "preview",
           href: "https://public-safety-wiki.vercel.app/",
+        },
+      ],
+    },
+    {
+      id: 8,
+      title: "Autonomous Obstacle-Avoiding Vehicle (TinyML)",
+      description:
+        "TinyML-powered autonomous vehicle with on-device obstacle detection using Edge Impulse FOMO, Arduino deployment, Express.js backend for routing, and Google Maps live tracking..",
+      video: "/AOAV.mp4",
+      technologies: [
+        "TinyML",
+        "Edge Impulse",
+        "FOMO Model",
+        "Arduino",
+        "Embedded C++",
+        "Express.js",
+        "Node.js",
+        "OpenRouteService API",
+        "Google Maps API",
+        "REST APIs",
+      ],
+      buttons: [
+        {
+          label: "CODE",
+          type: "code",
+          href: "https://github.com/Ahny678/GPS-NAVIGATION",
+        },
+        {
+          label: "DEMO VIDEO",
+          type: "preview",
+          href: "https://www.youtube.com/shorts/fA1U56vDObM",
         },
       ],
     },
