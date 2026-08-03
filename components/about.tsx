@@ -5,14 +5,14 @@ export const skills = [
     icon: Server,
     title: "BACKEND",
     technologies:
-      "NestJS, Express, Hono, Bun, NPM, ORMs, DBMS, JWT, OAuth, System Design",
+      "Express, NestJS, Hono, Jest, ORMs, DBMS, JWT, OAuth, System Design",
     description:
       "Building scalable server-side applications, APIs, and authentication systems",
   },
   {
     icon: Code2,
     title: "API DOCUMENTATION",
-    technologies: "Swagger, Apidog, Postman",
+    technologies: "Swagger, Apidog, Postman, Typespec",
     description:
       "Designing, testing, and documenting APIs for developers and clients",
   },
@@ -26,7 +26,7 @@ export const skills = [
   {
     icon: Globe,
     title: "DEVOPS",
-    technologies: "GitHub Actions, CI/CD, Prometheus, Grafana, Render",
+    technologies: "AWS, Terraform, CI/CD, Kubernetes, Grafana",
     description:
       "Automating deployments, monitoring, and managing cloud infrastructure",
   },
@@ -78,17 +78,6 @@ export default function About() {
           ABOUT
         </h2>
         <div className="h-1 w-32 bg-[#00ff88] mx-auto mb-12"></div>
-
-        <p className="text-center text-gray-300 text-base sm:text-lg max-w-3xl mx-auto mb-16 leading-relaxed">
-          I'm a software developer with a strong drive to take on new challenges
-          and continuously expand my knowledge. My passion for learning has led
-          me to explore and gain hands-on experience across multiple domains
-          within the tech industry — including web development, artificial
-          intelligence, technical and creative writing. This diverse background
-          has equipped me with a well-rounded skill set and a deep appreciation
-          for solving problems across the full stack. I bring curiosity,
-          dedication, and versatility to every project I engage with.
-        </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
           {skills.map((skill) => {

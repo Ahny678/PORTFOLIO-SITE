@@ -7,63 +7,120 @@ export default function Experience() {
   const experiences = [
     {
       id: 1,
+      title: "RiseVest – Backend Engineer",
+      links: [
+        {
+          label: "Rise Treasury",
+          url: "https://www.risevest.com/rise-treasury",
+        },
+        {
+          label: "AssetBase",
+          url: "https://assetbase.capital/",
+        },
+      ],
+      duration: "January 2025 – Present",
+      location: "Lagos, Nigeria",
+      description: [
+        "Built backend features for the Rise Treasury platform, enabling businesses to invest in real estate, save in USD, and earn interest on their investments.",
+        "Mintained payment processing solutions with Yellowcard and Paystack, and implemented multi-currency virtual account services (USD, EUR, GBP) through Nuvion.",
+        "Implemented OAuth(Apple),and updated KYB verification workflows using MetaMap and Dojah on Assetbase.",
+        "Improved platform reliability and security through API auditing, dependency upgrades, Dockerfile refactoring, and other backend maintenance initiatives.",
+      ],
+      image: "/treasury.png",
+    },
+
+    {
+      id: 2,
+      title: "Rise Academy – Backend Trainee",
+      links: [
+        {
+          label: "Rise Academy",
+          url: "https://www.risevest.com/academy",
+        },
+      ],
+      duration: "January 2024 – December 2024",
+      location: "Lagos, Nigeria",
+      description: [
+        "Designed and developed IntelliScout, an AI-powered recruitment platform leveraging GPT-4.1 for intelligent resume parsing, candidate evaluation, job matching, and automated HR workflows using NestJS, Azure OpenAI, BullMQ, PostgreSQL, and RapidAPI.",
+        "Built Ink & Keys, an AI-powered writing and document management platform featuring OCR-powered text extraction, AI image generation, smart document organization, and cloud-based media management using React, NestJS, PostgreSQL, Prisma, Tesseract.js, Hugging Face API, Cloudinary, and Docker.",
+        "Collaborated with cross-functional teams to design, develop, test, and deploy scalable backend applications and AI-powered solutions while applying software engineering best practices.",
+      ],
+      image: "/rise.png",
+    },
+
+    {
+      id: 3,
       title: "Applai Grants – Backend Engineer",
+      links: [
+        {
+          label: "Website",
+          url: "https://applaigrants.com/",
+        },
+      ],
       duration: "October 2024 – Present",
       location: "Lagos, Nigeria",
       description: [
         "Collaborated with cross-functional teams of UI/UX, frontend, and backend engineers to maintain and scale an AI-powered grant application platform for startups and SMEs.",
         "Improved backend performance, security, and API integrations to enhance automation and user experience.",
-        "Contributed to the development and testing of the platform’s upcoming V2 release, focusing on scalability and new AI-driven features.",
-        "Participated in agile sprints, code reviews, and CI/CD pipelines to ensure efficient, high-quality releases.",
+        "Contributed to the development and testing of the platform's V2 release, focusing on scalability and AI-driven features.",
+        "Participated in agile sprints, code reviews, and CI/CD pipelines to ensure efficient, high-quality software releases.",
       ],
       image: "/applai.png",
     },
-    {
-      id: 2,
-      title: "RiseVest – Backend Trainee",
-      duration: "January 2024 – Present",
-      location: "Lagos, Nigeria",
-      description: [
-        "Created and maintained detailed API documentation with Swagger, improving collaboration and integration efficiency across teams.",
-        "Applied DevOps practices using Docker, Prometheus, and Grafana for system monitoring, performance insights, and deployment automation.",
-        "Leading backend development of a community platform launching early 2026, enabling diaspora and local members to contribute to village initiatives.",
-        "Published several cloud-based solutions, including an electronic diary application, a company file drive system, and multiple APIs for blog platforms.",
-      ],
-      image: "/rise.png",
-    },
-    {
-      id: 3,
-      title: "Freelance – ACIU (Community Platform)",
-      duration: "July 2025 – January 2026 (ongoing)",
-      location: "Remote / RiseVest Project",
-      description: [
-        "Backend Developer in a team of Product Manager, 2 frontend developers, UI/UX designer, and another backend developer.",
-        "Implemented Stripe payments, mass email sending with queue workers (Resend), and admin dashboards for dues, donations, projects, and events.",
-        "Designed scalable backend architecture for national and branch admins with members management.",
-      ],
-      image: "/aciu1.png",
-    },
+
     {
       id: 4,
-      title: "HubbleMind – Machine Learning Engineer (Intern)",
+      title: "Freelance – ACIU (Community Platform)",
+      links: [
+        {
+          label: "Platform",
+          url: "https://app.aciuworldwide.com/",
+        },
+      ],
+      duration: "July 2025 – March 2026",
+      location: "Remote",
+      description: [
+        "Collaborated with a cross-functional team consisting of a Product Manager, frontend developers, UI/UX designer, and backend engineers to build a scalable community platform.",
+        "Implemented Stripe payment integration, Resend-powered email delivery with queue workers, and administrative dashboards for dues, donations, projects, and events.",
+        "Designed scalable backend architecture supporting national and branch administrators, member management, role-based access control, and organizational workflows.",
+      ],
+      image: "/aciu.png",
+    },
+
+    {
+      id: 5,
+      title: "HubbleMind – Machine Learning Engineer Intern",
+      links: [
+        {
+          label: "Website",
+          url: "https://hubblemind.com/",
+        },
+      ],
       duration: "December 2024",
       location: "Bangalore, India",
       description: [
-        "Designed and implemented a Coupon Recommendation System using Random Forest, Logistic Regression, and Decision Trees.",
-        "Delivered detailed weekly technical reports highlighting project progress, code development, and optimization efforts.",
-        "Enhanced model performance by 20% through hyperparameter tuning and iterative refinement.",
+        "Designed and implemented a Coupon Recommendation System using Random Forest, Logistic Regression, and Decision Tree models.",
+        "Delivered detailed weekly technical reports documenting development progress, model improvements, and optimization strategies.",
+        "Improved recommendation accuracy by approximately 20% through hyperparameter tuning and iterative model refinement.",
       ],
       image: "/hubblemind.png",
     },
+
     {
-      id: 5,
-      title: "EISL Lab – Hardware Engineer (Intern)",
+      id: 6,
+      title: "EISL Lab, FUTMinna – Hardware Engineer Intern",
+      links: [
+        {
+          label: "FUTMinna",
+          url: "https://futminna.edu.ng/",
+        },
+      ],
       duration: "June 2024 – November 2024",
       location: "Niger, Nigeria",
       description: [
-        "Developed a flash flood classification model using a custom CNN for real-time flood detection.",
-        "Collaborated with ML and QA engineers to prototype AI-integrated embedded systems.",
-        "Enhanced legacy embedded system projects from past five years, achieving 20% improvement in success rate.",
+        "Developed a custom CNN-based flash flood classification model for real-time flood detection.",
+        "Collaborated with machine learning and QA engineers to prototype AI-powered embedded systems.",
+        "Enhanced legacy embedded system projects, improving overall system reliability and project success by approximately 20%.",
       ],
       image: "/EISL.jpg",
     },
@@ -72,27 +129,55 @@ export default function Experience() {
   const certifications = [
     {
       id: 1,
-      title: "Design Thinking – Certificate of Completion",
-      issuer: "HP LIFE Online Course",
-      date: "May 31, 2025",
-      image: "/DT.png",
+      title: "DevOps Engineering",
+      issuer: "She Codes Africa",
+      date: "May 12, 2026",
+      image: "/shecodes.png",
     },
     {
       id: 2,
+      title: "Certificate of Recognition for Advancing Research",
+      issuer: "Nubian Research",
+      date: "April 16, 2026",
+      image: "/nubian.png",
+    },
+    {
+      id: 3,
+      title: "Kubernetes and Cloud Native Essentials (LFS250)",
+      issuer: "The Linux Foundation",
+      date: "March 28, 2026",
+      image: "/kubernetes.png",
+    },
+    {
+      id: 4,
+      title: "Certificate of Completion- Backend Engineering",
+      issuer: "Rise Academy",
+      date: "December 12, 2025",
+      image: "/rise-academy.png",
+    },
+    {
+      id: 5,
       title: "Effective Communication – Certificate of Completion",
       issuer: "HP LIFE Online Course",
       date: "June 2, 2025",
       image: "/EC.png",
     },
     {
-      id: 3,
+      id: 6,
+      title: "Design Thinking – Certificate of Completion",
+      issuer: "HP LIFE Online Course",
+      date: "May 31, 2025",
+      image: "/DT.png",
+    },
+    {
+      id: 7,
       title: "Certificate of Internship – Machine Learning Intern",
       issuer: "HubbleMind Labs Private Limited",
       date: "January 9, 2025",
       image: "/hubbleC.png",
     },
     {
-      id: 4,
+      id: 8,
       title: "Introduction to the Internet of Things and Embedded Systems",
       issuer: "University of California, Irvine – Coursera",
       date: "December 27, 2023",
@@ -127,13 +212,33 @@ export default function Experience() {
                   className="object-cover"
                 />
               </div>
+
               <div className="p-6 flex-1 flex flex-col">
-                <h4 className="text-2xl font-bold text-white mb-2 font-mono">
-                  {exp.title}
-                </h4>
+                <div className="mb-3">
+                  <h4 className="text-2xl font-bold text-white font-mono">
+                    {exp.title}
+                  </h4>
+
+                  {/* Company/Product Links */}
+                  <div className="flex flex-wrap gap-2 mt-3">
+                    {exp.links?.map((link) => (
+                      <a
+                        key={link.url}
+                        href={link.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center rounded-full border border-[#00ff88] px-3 py-1 text-xs font-medium text-[#00ff88] transition hover:bg-[#00ff88] hover:text-black"
+                      >
+                        {link.label} ↗
+                      </a>
+                    ))}
+                  </div>
+                </div>
+
                 <p className="text-gray-400 text-sm mb-4 font-mono">
                   {exp.location} | {exp.duration}
                 </p>
+
                 <ul className="flex-1 space-y-3 text-gray-300 text-sm">
                   {exp.description.map((desc, idx) => (
                     <li key={idx} className="flex items-start gap-3">

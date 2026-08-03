@@ -20,10 +20,10 @@ export default function Hero() {
           <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
             Hi, my name is{" "}
             <span className="bg-white text-black px-2 py-1 rounded font-semibold">
-              Tiffany Ugwunebo
+              Oluchi Tiffany Ugwunebo
             </span>{" "}
             I am a software developer with experience in backend development,
-            frontend development, machine learning and technical writing
+            devops frontend development, machine learning and technical writing
           </p>
         </div>
 
@@ -41,7 +41,7 @@ export default function Hero() {
             VIEW EXPERIENCE
           </Link>
           <Link
-            href="/TIFFANY UGWUNEBO _ BACKEND DEVELOPER .pdf"
+            href="/TIFFANY UGWUNEBO _ BACKEND DEVELOPER.pdf"
             className="px-8 py-3 border-2 border-white text-white font-bold rounded-full hover:bg-white/10 transition-colors"
           >
             DOWNLOAD CV
